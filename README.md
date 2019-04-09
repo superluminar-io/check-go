@@ -1,7 +1,10 @@
 # Check Go
 
 ```bash
-$ > make check
+# Run check for go and AWS configuration
+# You can use AWS_PROFILE to use a configured profile
+
+$ > make check # Same as `make go aws`
 
 🖖 Go build works
 🖖 AWS Session works
